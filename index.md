@@ -1,3 +1,3 @@
 The site is under development. You can visit our product page here:
 
-https://lcr-reader.cn
+[LCR-Reader 中国](https://lcr-reader.cn)
