@@ -1,4 +1,6 @@
 # ai-rox.github.io
-AI-ROX Polytronics Co., Ltd. website
+# CNAME ai-rox.com
 
-You can also visit our product website https://lcr-reader.cn
+安聚科电子科技（深圳）有限公司
+AI-ROX Polytronics Co., Ltd. website
+(с) Andrei Leman
