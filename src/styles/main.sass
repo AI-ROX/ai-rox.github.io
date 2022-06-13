@@ -1,0 +1,112 @@
+@import './_variables'
+@import './_mixins'
+
+//@import "~bootstrap/scss/bootstrap"
+
+@font-face
+  font-family: forArticle
+  src: url("Poppins-Regular.ttf")
+
+@font-face
+  font-family: forCode
+  src: url("Roboto-Regular.ttf")
+
+*
+  box-sizing: border-box
+  outline: none
+
+html,
+body
+  height: 100%
+  wdth: 100%
+  padding: 0
+  margin: 0
+  overflow-x: hidden
+
+body
+  position: relative
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  color: $main-text-color
+  background-color: $main-background-color
+  font-size: $main-text-size
+  user-select: none
+  -webkit-user-select: none
+  -khtml-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+
+code
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace
+
+.root
+  position: relative
+
+.col,
+.row,
+.layout
+  padding: 0px
+  margin: 0px
+
+h1,
+h2,
+p
+  font-family: forArticle
+
+header,
+footer,
+section
+  padding: 0px
+  margin: 0px
+  position: relative
+  //width: 100%
+  //min-width: 100%
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+
+.navbarLogo
+  background-image: url('../../public/AI-ROX-Logo.svg')
+  background-position: center center
+  background-repeat: no-repeat
+  background-size: contain
+
+  padding-right: 20px
+
+.headerTop
+  position: fixed
+  width: 100%
+  z-index: 9999
+  top: 0
+  background-color: black
+  color: white
+
+.headerNav
+  position: relative
+  //top: 35px
+  padding-top: 15px
+  z-index: 100
+  background-color: white
+  width: 100%
+  height: 100px
+  align-self: center
+  align-content: center
+
+.headerNav a
+  padding-left: 20px
+  padding-right: 20px
+  text-decoration: none
+  color: gray
+  font-size: 2em
+// <header style={{
+//    position: 'relative',
+//     width: '100%',
+//      display: 'flex', 
+// justifyContent:
+//    'center',
+//     alignItems: 'center',
+//      flexDirection: 'column' }}>
+
+//<div style={{ position: 'relative', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
