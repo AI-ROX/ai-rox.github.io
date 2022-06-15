@@ -11,19 +11,16 @@ const Header: React.FC = () => {
           <section className='headerTop'>
             <Container>
               <Row style={{textAlign:'center'}}>
-                <Col>QQ 3027645465</Col>
+                <Col xs='2' sm='3' lg='4'>QQ 3027645465</Col>
                 <Col><i className='fa fa-phone-volume fas'></i>Phone: (186) 6177 7407</Col>
-                <Col>Contact Us</Col>
+                <Col xs='2' sm='3' lg='4'>Contact Us</Col>
               </Row>
             </Container>
           </section>
           <section className='headerNav'>
             <HeaderNav/>
           </section>
-          <section>
-            This Header is such stable...
-          </section>
-        </header>          
+        </header>
       </>
     )
 }

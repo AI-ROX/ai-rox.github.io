@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Container, Col, Row} from 'react-bootstrap'
+import {Container, Col, Row, CardGroup, Card} from 'react-bootstrap'
 //import Navbar from '../components/Navbar'
 //import DateDisplay from '../components/DateDisplay'
 
@@ -8,7 +8,7 @@ const HomePage: React.FC = () => {
       <>
         <section style={{
           backgroundColor: 'black',
-          backgroundImage:' url(https://www.proactivepcb.com/wp-content/uploads/Home-page-top-row-hero.webp)',
+          backgroundImage:' url(/Home-page-top-row-hero.webp)',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center center',
           backgroundAttachment: 'scroll',
@@ -26,15 +26,68 @@ const HomePage: React.FC = () => {
                 alignItems: 'center',
                 margin: 'auto',
               }}>
-                <h2>UNDER ONE ROOF</h2>
-                <h1 style={{fontFamily: 'forArticle', fontSize: '3em'}}>Electronic Design and<br/> Manufacturing Solutions</h1>
-                <p style={{fontSize:'18px'}}>25 years of quality electronic design and manufacturing of Printed Circuit Boards (PCBs) specializing in diverse high-tech industries.</p>
+                <h1><i className="bi bi-house-fill" style={{fontSize: '2.5rem', color: 'rgb(136,170,0)'}}></i>&nbsp;UNDER ONE ROOF</h1>
+                <br/>
+                <h2 style={{fontFamily: 'forArticle', fontSize: '3em'}}>Software Development,<br/> Electronic Design and<br/> Manufacturing Solutions</h2>
+                <br/>
+                <p style={{fontSize:'18px'}}>Years of quality electronic design and manufacturing of Printed Circuit Boards (PCBs) specializing in diverse high-tech industries.</p>
               </Col>
             </Row>
           </Container>
         </section>
-        <section>HERE IS JUMBOTRON</section>
-        <section  style={{backgroundColor:'gray'}}>THIS IS ANOTHER SECTION</section>
+        <section>
+          <Container fluid>
+            <Row>
+              <Col>
+                <h1>AI-ROX Polytronics</h1>
+                <p>Is an Independent Design House (IDH) founded in 2018.</p>
+                <p>Electronics experts focused on scalability, efficiency, and speed. Providing cutting-edge electronics and a flexible workflow.</p>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <p>To make great products for our customers that create value.</p>
+              </Col>
+            </Row>
+          </Container>
+        </section>
+        <section>
+          <Container>
+            <Row>
+          <CardGroup>
+            <Card>
+              <Card.Img height='272' variant='top' src='engineer-with-circuit-board-square.webp'/>
+              <Card.Body>
+                <Card.Title>Engineering</Card.Title>
+                <Card.Text>From the concept, to the product.</Card.Text>
+              </Card.Body>
+            </Card>
+            <Card>
+              <Card.Img variant='top' src=''/>
+              <Card.Body>
+                <Card.Title>Manufacturing</Card.Title>
+                <Card.Text>This is a card text in the example.</Card.Text>
+              </Card.Body>
+            </Card>
+            <Card>
+              <Card.Img variant='top' src=''/>
+              <Card.Body>
+                <Card.Title>Materials Supply</Card.Title>
+                <Card.Text>This is a card text in the example.</Card.Text>
+              </Card.Body>
+            </Card>
+            <Card>
+              <Card.Img variant='top' src=''/>
+              <Card.Body>
+                <Card.Title>Equipment Supply</Card.Title>
+                <Card.Text>This is a card text in the example.</Card.Text>
+              </Card.Body>
+            </Card>
+          </CardGroup>
+            </Row>
+          </Container>
+          
+        </section>
         <section>AND ANOTHER SECTION</section>
       </>
   )

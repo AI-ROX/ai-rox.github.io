@@ -1,7 +1,9 @@
 @import './_variables'
 @import './_mixins'
 
-//@import "~bootstrap/scss/bootstrap"
+@import "~bootstrap/scss/bootstrap"
+//@import "~bootstrap/dist/css/bootstrap.min.css"
+@import "~bootstrap-icons/font/bootstrap-icons.css"
 
 @font-face
   font-family: forArticle
@@ -14,6 +16,7 @@
 *
   box-sizing: border-box
   outline: none
+  font-family: forArticle
 
 html,
 body
@@ -49,31 +52,18 @@ code
   padding: 0px
   margin: 0px
 
-h1,
-h2,
-p
-  font-family: forArticle
-
-header,
-footer,
-section
-  padding: 0px
-  margin: 0px
-  position: relative
-  //width: 100%
-  //min-width: 100%
-  display: flex
-  justify-content: center
-  align-items: center
-  flex-direction: column
-
-.navbarLogo
-  background-image: url('../../public/AI-ROX-Logo.svg')
-  background-position: center center
-  background-repeat: no-repeat
-  background-size: contain
-
-  padding-right: 20px
+// header,
+// footer,
+// section
+//   padding: 0px
+//   margin: 0px
+//   position: relative
+//   //width: 100%
+//   //min-width: 100%
+//   display: flex
+//   justify-content: center
+//   align-items: center
+//   flex-direction: column
 
 .headerTop
   position: fixed
@@ -84,29 +74,34 @@ section
   color: white
 
 .headerNav
-  position: relative
-  //top: 35px
-  padding-top: 15px
-  z-index: 100
-  background-color: white
-  width: 100%
-  height: 100px
-  align-self: center
-  align-content: center
+  padding-top: 20px
+//   position: relative
+//   //top: 35px
+//   padding-top: 20px
+//   z-index: 100
+//   background-color: white
+//   width: 100%
+//   height: 100px
+//   align-self: center
+//   align-content: center
 
 .headerNav a
   padding-left: 20px
   padding-right: 20px
   text-decoration: none
   color: gray
-  font-size: 2em
-// <header style={{
-//    position: 'relative',
-//     width: '100%',
-//      display: 'flex', 
-// justifyContent:
-//    'center',
-//     alignItems: 'center',
-//      flexDirection: 'column' }}>
+  font-size: 1.8em
 
-//<div style={{ position: 'relative', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+.nav-link>.active
+  color: green
+
+// // <header style={{
+// //    position: 'relative',
+// //     width: '100%',
+// //      display: 'flex', 
+// // justifyContent:
+// //    'center',
+// //     alignItems: 'center',
+// //      flexDirection: 'column' }}>
+
+// //<div style={{ position: 'relative', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
