@@ -17,9 +17,9 @@ const HomePage: React.FC = () => {
         }}>
           <Container fluid style={{padding:0, margin:0}}>
             <Row style={{height: '400px',}}>
-              <Col >
+              <Col>
               </Col>
-              <Col xs="7" style={{
+              <Col xs="8" sm='7' lg='7' xl='7' style={{
                 color: 'white',
                 backgroundColor: 'black',
                 justifyContent: 'center',

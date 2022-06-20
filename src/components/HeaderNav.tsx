@@ -10,7 +10,7 @@ const HeaderNav: React.FC = () => {
       <Navbar bg='white' expand='sm' fixed='top' sticky="top">
         <Container>
           <Navbar.Brand as={NavLink} to='/'>
-            <img alt='' src='AI-ROX-Logo.svg' width='150' height='50' className='d-inline-block align-center'/>
+            <img alt='' src='ai-rox-logo.png' width='150' height='auto' className='d-inline-block align-center'/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav'/>
           <Navbar.Collapse id='basic-navbar-nav'>
