@@ -57,7 +57,7 @@ const HomePage: React.FC = () => {
             <Row>
           <CardGroup style={{alignItems: 'stretch'}}>
             <Link to='engineering' style={{padding: '10px', textDecoration: 'none'}}>
-              <Card>
+              <Card style={{border: '1px black', boxShadow: '2px 2px 20px 2px rgba(0,0,0,.48)'}}>
                 <Card.Img height='272' variant='top' src='engineering.webp'/>
                 <Card.Body>
                   <Card.Title>Engineering</Card.Title>
@@ -66,7 +66,7 @@ const HomePage: React.FC = () => {
               </Card>
             </Link>
             <Link to='engineering' style={{padding: '10px', textDecoration: 'none'}}>
-              <Card>
+              <Card style={{border: '1px black', boxShadow: '2px 2px 20px 2px rgba(0,0,0,.48)'}}>
                 <Card.Img variant='top' src=''/>
                 <Card.Body>
                   <Card.Title>Manufacturing</Card.Title>
@@ -75,7 +75,7 @@ const HomePage: React.FC = () => {
               </Card>
             </Link>
             <Link to='engineering' style={{padding: '10px', textDecoration: 'none'}}>
-            <Card>
+            <Card style={{border: '1px black', boxShadow: '2px 2px 20px 2px rgba(0,0,0,.48)'}}>
               <Card.Img variant='top' src=''/>
               <Card.Body>
                 <Card.Title>Supply</Card.Title>
