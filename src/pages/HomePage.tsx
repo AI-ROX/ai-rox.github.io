@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import {Container, Col, Row, CardGroup, Card} from 'react-bootstrap'
+import {NavLink, Link} from 'react-router-dom';
 //import Navbar from '../components/Navbar'
 //import DateDisplay from '../components/DateDisplay'
 
@@ -28,19 +29,19 @@ const HomePage: React.FC = () => {
               }}>
                 <h1><i className="bi bi-house-fill" style={{fontSize: '2.5rem', color: 'rgb(136,170,0)'}}></i>&nbsp;UNDER ONE ROOF</h1>
                 <br/>
-                <h2 style={{fontFamily: 'forArticle', fontSize: '3em'}}>Software Development,<br/> Electronic Design and<br/> Manufacturing Solutions</h2>
+                <h2 style={{fontFamily: 'forArticle'}}>Software Development,<br/> Electronic Design and<br/> Manufacturing Solutions</h2>
                 <br/>
-                <p style={{fontSize:'18px'}}>Years of quality electronic design and manufacturing of Printed Circuit Boards (PCBs) specializing in diverse high-tech industries.</p>
+                <p>Years of quality electronic design and manufacturing of Printed Circuit Boards (PCBs) specializing in diverse high-tech industries.</p>
               </Col>
             </Row>
           </Container>
         </section>
         <section>
-          <Container fluid>
+          <Container>
             <Row>
               <Col>
                 <h1>AI-ROX Polytronics</h1>
-                <p>Is an Independent Design House (IDH) founded in 2018.</p>
+                <p>We are an Independent Design House (IDH) founded in 2018.</p>
                 <p>Electronics experts focused on scalability, efficiency, and speed. Providing cutting-edge electronics and a flexible workflow.</p>
               </Col>
             </Row>
@@ -54,35 +55,34 @@ const HomePage: React.FC = () => {
         <section>
           <Container>
             <Row>
-          <CardGroup>
-            <Card>
-              <Card.Img height='272' variant='top' src='engineer-with-circuit-board-square.webp'/>
-              <Card.Body>
-                <Card.Title>Engineering</Card.Title>
-                <Card.Text>From the concept, to the product.</Card.Text>
-              </Card.Body>
-            </Card>
-            <Card>
-              <Card.Img variant='top' src=''/>
-              <Card.Body>
-                <Card.Title>Manufacturing</Card.Title>
-                <Card.Text>This is a card text in the example.</Card.Text>
-              </Card.Body>
-            </Card>
-            <Card>
-              <Card.Img variant='top' src=''/>
-              <Card.Body>
-                <Card.Title>Materials Supply</Card.Title>
-                <Card.Text>This is a card text in the example.</Card.Text>
-              </Card.Body>
-            </Card>
+          <CardGroup style={{alignItems: 'stretch'}}>
+            <Link to='engineering' style={{padding: '10px', textDecoration: 'none'}}>
+              <Card>
+                <Card.Img height='272' variant='top' src='engineering.webp'/>
+                <Card.Body>
+                  <Card.Title>Engineering</Card.Title>
+                  <Card.Text>from the concept to the product &gt;</Card.Text>
+                </Card.Body>
+              </Card>
+            </Link>
+            <Link to='engineering' style={{padding: '10px', textDecoration: 'none'}}>
+              <Card>
+                <Card.Img variant='top' src=''/>
+                <Card.Body>
+                  <Card.Title>Manufacturing</Card.Title>
+                  <Card.Text>on your behalf under supervision<br/> of our professional surveyor &gt;</Card.Text>
+                </Card.Body>
+              </Card>
+            </Link>
+            <Link to='engineering' style={{padding: '10px', textDecoration: 'none'}}>
             <Card>
               <Card.Img variant='top' src=''/>
               <Card.Body>
-                <Card.Title>Equipment Supply</Card.Title>
-                <Card.Text>This is a card text in the example.</Card.Text>
+                <Card.Title>Supply</Card.Title>
+                <Card.Text>of the quality raw materials, <br/>electronic components,<br/> new and refurbished equipment &gt;</Card.Text>
               </Card.Body>
             </Card>
+            </Link>
           </CardGroup>
             </Row>
           </Container>

@@ -12,12 +12,12 @@ const Footer: React.FC = () => {
               &nbsp;|&nbsp;
               <Link style={{color: 'white', textDecoration:'none'}} to='privacypol'>Privacy Policy</Link>
             </nav>
-            <DateDisplay />
         </footer>
     )
 }
 
 export default Footer
+// <DateDisplay />
 /**
  *         <div style={{ color: 'white', 
  *                       textDecoration:'none',

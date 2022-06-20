@@ -1,7 +1,9 @@
+@import "~bootstrap/scss/bootstrap"
+
 @import './_variables'
 @import './_mixins'
 
-@import "~bootstrap/scss/bootstrap"
+//@import "~bootstrap/scss/bootstrap"
 //@import "~bootstrap/dist/css/bootstrap.min.css"
 @import "~bootstrap-icons/font/bootstrap-icons.css"
 
@@ -72,6 +74,7 @@ code
   top: 0
   background-color: black
   color: white
+  font-size: 8px
 
 .headerNav
   padding-top: 20px
@@ -84,24 +87,112 @@ code
 //   height: 100px
 //   align-self: center
 //   align-content: center
+// $phone-size: 600px
+// $tablet-size: 992px
+// $desktop-size: 1200px
 
-.headerNav a
-  padding-left: 20px
-  padding-right: 20px
-  text-decoration: none
-  color: gray
-  font-size: 1.8em
+@media (max-width: 544px)
+  p
+    font-size: 14px
+  h1
+    font-size: 1.5rem
+  h2
+    font-size: 1rem
+  h3
+    font-size: 0.5rem
+  h4
+    font-size: 0.2rem
+  .headerTop
+    font-size: 8px
+  .headerNav a
+    padding-left: 20px
+    padding-right: 20px
+    text-decoration: none
+    color: gray
+    font-size: 0.8em
 
-.nav-link>.active
+@media (min-width: 544px)
+  p
+    font-size: 14px
+  h1
+    font-size: 1.5rem
+  h2
+    font-size: 1rem
+  h3
+    font-size: 0.5rem
+  h4
+    font-size: 0.2rem
+  .headerTop
+    font-size: 8px
+  .headerNav a
+    padding-left: 20px
+    padding-right: 20px
+    text-decoration: none
+    color: gray
+    font-size: 0.8em
+
+@media (min-width: 768px)
+  p
+    font-size: 14px
+  h1
+    font-size: 2rem
+  h2
+    font-size: 1.5rem
+  h3
+    font-size: 1rem
+  h4
+    font-size: 0.5rem
+  .headerTop
+    font-size: 10px
+  .headerNav a
+    padding-left: 20px
+    padding-right: 20px
+    text-decoration: none
+    color: gray
+    font-size: 1.2em
+
+@media (min-width: 992px)
+  p
+    font-size: 18px
+  h1
+    font-size: 2.5rem
+  h2
+    font-size: 2rem
+  h3
+    font-size: 1.5rem
+  h4
+    font-size: 1rem
+  .headerTop
+    font-size: 14px
+  .headerNav a
+    padding-left: 20px
+    padding-right: 20px
+    text-decoration: none
+    color: gray
+    font-size: 1.5em
+
+@media (min-width: 1200px)
+  p
+    font-size: 18px
+  h1
+    font-size: 3rem
+  h2
+    font-size: 2.5rem
+  h3
+    font-size: 2rem
+  h4
+    font-size: 1.5rem
+  .headerTop
+    font-size: 16px
+  .headerNav a
+    padding-left: 20px
+    padding-right: 20px
+    text-decoration: none
+    color: gray
+    font-size: 1.8em
+
+// $phone-size: 600px
+// $tablet-size: 992px
+// $desktop-size: 1200px
+.navbar-nav >.active
   color: green
-
-// // <header style={{
-// //    position: 'relative',
-// //     width: '100%',
-// //      display: 'flex', 
-// // justifyContent:
-// //    'center',
-// //     alignItems: 'center',
-// //      flexDirection: 'column' }}>
-
-// //<div style={{ position: 'relative', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>

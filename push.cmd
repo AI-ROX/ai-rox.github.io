@@ -1,3 +1,3 @@
 git add .
-git commit -m "Configure React app for deployment to GitHub Pages"
+git commit -m "Website edits 2022-06-20-1658"
 git push origin master
