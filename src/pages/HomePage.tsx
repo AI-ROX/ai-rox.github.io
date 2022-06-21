@@ -67,7 +67,7 @@ const HomePage: React.FC = () => {
             </Link>
             <Link to='engineering' style={{padding: '10px', textDecoration: 'none'}}>
               <Card style={{border: '1px black', boxShadow: '2px 2px 20px 2px rgba(0,0,0,.48)'}}>
-                <Card.Img variant='top' src=''/>
+                <Card.Img height='272' variant='top' src='Manufacturing-SMT-PCBA.webp'/>
                 <Card.Body>
                   <Card.Title>Manufacturing</Card.Title>
                   <Card.Text>on your behalf under supervision<br/> of our professional surveyor &gt;</Card.Text>
