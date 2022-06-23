@@ -7,15 +7,14 @@ import {NavLink, Link} from 'react-router-dom';
 const HomePage: React.FC = () => {
     return (
       <>
-        <section style={{
+        <section>
+          <Container fluid style={{padding:0, margin:0,
           backgroundColor: 'black',
-          backgroundImage:' url(/Home-page-top-row-hero.webp)',
+          backgroundImage: 'url(/Home-page-top-row-hero.webp)',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center center',
           backgroundAttachment: 'scroll',
-          backgroundSize: 'cover'
-        }}>
-          <Container fluid style={{padding:0, margin:0}}>
+          backgroundSize: 'cover'}}>
             <Row style={{height: '400px',}}>
               <Col>
               </Col>
@@ -65,7 +64,7 @@ const HomePage: React.FC = () => {
                 </Card.Body>
               </Card>
             </Link>
-            <Link to='engineering' style={{padding: '10px', textDecoration: 'none'}}>
+            <Link to='manufacturing' style={{padding: '10px', textDecoration: 'none'}}>
               <Card style={{border: '1px black', boxShadow: '2px 2px 20px 2px rgba(0,0,0,.48)'}}>
                 <Card.Img height='272' variant='top' src='Manufacturing-SMT-PCBA.webp'/>
                 <Card.Body>
@@ -74,9 +73,9 @@ const HomePage: React.FC = () => {
                 </Card.Body>
               </Card>
             </Link>
-            <Link to='engineering' style={{padding: '10px', textDecoration: 'none'}}>
+            <Link to='supply' style={{padding: '10px', textDecoration: 'none'}}>
             <Card style={{border: '1px black', boxShadow: '2px 2px 20px 2px rgba(0,0,0,.48)'}}>
-              <Card.Img variant='top' src=''/>
+              <Card.Img height='272' variant='top' src='marterials supply.webp'/>
               <Card.Body>
                 <Card.Title>Supply</Card.Title>
                 <Card.Text>of the quality raw materials, <br/>electronic components,<br/> new and refurbished equipment &gt;</Card.Text>

@@ -6,6 +6,7 @@ import Logo from '../components/Logo'
 
 const HeaderNav: React.FC = () => {
   //justifyContent:'center', alignItems:'center', alignContent:'center',
+  // <Nav.Link as={NavLink} to='supply'>Supply</Nav.Link>
     return (
       <Navbar bg='white' expand='sm' fixed='top' sticky="top">
         <Container>
@@ -17,8 +18,8 @@ const HeaderNav: React.FC = () => {
             <Nav className='me-auto'>
               <Nav.Link as={NavLink} to='engineering'>Engineering</Nav.Link>
               <Nav.Link as={NavLink} to='manufacturing'>Manufacturing</Nav.Link>
-              <Nav.Link as={NavLink} to='materials'>Materials</Nav.Link>
-              <Nav.Link as={NavLink} to='equipment'>Equipment</Nav.Link>
+              <Nav.Link as={NavLink} to='supply/materials'>Materials</Nav.Link>
+              <Nav.Link as={NavLink} to='supply/equipment'>Equipment</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -27,6 +28,11 @@ const HeaderNav: React.FC = () => {
 }
 
 /*
+              <NavDropdown title='supply'> 
+                <Nav.Link as={NavLink} to='supply/materials'>Materials</Nav.Link>
+                <Nav.Link as={NavLink} to='supply/equipment'>Equipment</Nav.Link>
+              </NavDropdown>
+
               <NavDropdown title='More' id='basic-nav-dropdown' style={{paddingLeft:'20px'}}>
                 <NavDropdown.Item as={NavLink} to='about'>About</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to='warranty'>Warranty</NavDropdown.Item>

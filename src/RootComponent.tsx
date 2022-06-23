@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage'
 import EngineeringPage from './pages/EngineeringPage'
 import ManufacturingPage from './pages/ManufacturingPage'
 import MaterialsPage from './pages/MaterialsPage'
+import SupplyPage from './pages/SupplyPage'
 import EquipmentPage from './pages/EquipmentPage'
 import NotFoundPage from './pages/NotFoundPage'
 import { ROUTES } from './resources/routes-constants'
@@ -22,8 +23,10 @@ const RootComponent: React.FC = () => {
                   <Route index element={<HomePage />} />
                   <Route path={ROUTES.ENGINEERING} element={<EngineeringPage />} />
                   <Route path={ROUTES.MANUFACTURING} element={<ManufacturingPage />} />
-                  <Route path={ROUTES.MATERIALS} element={<MaterialsPage />} />
-                  <Route path={ROUTES.EQUIPMENT} element={<EquipmentPage />} />
+                  <Route path={ROUTES.SUPPLY} element={<SupplyPage />}>
+                    <Route path={ROUTES.MATERIALS} element={<MaterialsPage />} />
+                    <Route path={ROUTES.EQUIPMENT} element={<EquipmentPage />} />
+                  </Route>
                 </Route>
             </Routes>
         </Router>
