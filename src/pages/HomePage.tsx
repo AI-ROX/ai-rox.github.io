@@ -26,9 +26,10 @@ const HomePage: React.FC = () => {
                 alignItems: 'center',
                 margin: 'auto',
               }}>
-                <h1><i className="bi bi-house-fill" style={{fontSize: '2.5rem', color: 'rgb(136,170,0)'}}></i>&nbsp;UNDER ONE ROOF</h1>
                 <br/>
-                <h2 style={{fontFamily: 'forArticle'}}>Software Development,<br/> Electronic Design and<br/> Manufacturing Solutions</h2>
+                <h1><img src='idh-fill.svg' style={{height: '43px', width: '43px', verticalAlign: '-4px'}}/>&nbsp;IN ONE HOUSE*</h1>
+                <br/>
+                <h2 style={{fontFamily: 'forArticle'}}>Software Development, Electronic Design and Manufacturing Solutions</h2>
                 <br/>
                 <p>Years of quality electronic design and manufacturing of Printed Circuit Boards (PCBs) specializing in diverse high-tech industries.</p>
               </Col>
@@ -36,23 +37,16 @@ const HomePage: React.FC = () => {
           </Container>
         </section>
         <section>
-          <Container>
+          <Container style={{paddingTop: '30px'}}>
             <Row>
-              <Col>
-                <h1>AI-ROX Polytronics</h1>
-                <p>We are an Independent Design House (IDH) founded in 2018.</p>
-                <p>Electronics experts focused on scalability, efficiency, and speed. Providing cutting-edge electronics and a flexible workflow.</p>
+              <Col xs="12" style={{textAlign: 'center'}}>
+                <h1 className='ai-rox-green'>AI-ROX Polytronics</h1>
+                <p>* An Independent Design House (IDH) founded in 2018.</p>
+                <br/>
+                <h3 className='ai-rox-green'>Who We Are</h3>
+                <p>Electronics experts focused on scalability, efficiency, and speed.<br/>Providing cutting-edge electronics and a flexible workflow.</p>
               </Col>
             </Row>
-            <Row>
-              <Col>
-                <p>To make great products for our customers that create value.</p>
-              </Col>
-            </Row>
-          </Container>
-        </section>
-        <section>
-          <Container>
             <Row>
           <CardGroup style={{alignItems: 'stretch'}}>
             <Link to='engineering' style={{padding: '10px', textDecoration: 'none'}}>
@@ -98,6 +92,8 @@ const HomePage: React.FC = () => {
 <div style={{ position: 'relative', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
             <h1 style={{ fontSize: '2em' }}>Electronic Design and Manufacturing Solutions</h1>
         </div>
+
+<i className="bi bi-house-fill" style={{fontSize: '2.5rem', color: 'rgb(136,170,0)'}}></i>
 
  */
 export default HomePage
