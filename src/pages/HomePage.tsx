@@ -36,21 +36,21 @@ const HomePage: React.FC = () => {
           </Container>
         </section>
         <section>
-          <Container style={{paddingTop: '30px'}}>
+          <Container style={{paddingTop: '30px', margin: 'auto'}}>
             <Row>
               <Col xs="12" style={{textAlign: 'center'}}>
                 <h1 className='ai-rox-green'>AI-ROX Polytronics</h1>
                 <p>* An Independent Design House (IDH) founded in 2018.</p>
                 <br/>
-                <h3 className='ai-rox-green'>Who We Are</h3>
+                <h3 className='ai-rox-green'>We Are</h3>
                 <p>Electronics experts focused on scalability, efficiency, and speed.<br/>Providing cutting-edge electronics and a flexible workflow.</p>
               </Col>
             </Row>
             <Row>
-              <Col style={{textAlign: 'center'}}>
-                <CardGroup style={{alignItems: 'stretch'}}>
+              <Col>
+                <CardGroup style={{justifyContent:'center'}}>
                   <Link to='engineering' style={{padding: '10px', textDecoration: 'none'}}>
-                    <Card style={{border: '1px black', boxShadow: '2px 2px 20px 2px rgba(0,0,0,.48)'}}>
+                    <Card style={{border: '1px black', boxShadow:  '2px 2px 20px 2px rgba(0,0,0,.48)'}}>
                       <Card.Img height='272' variant='top' src='engineering.webp'/>
                       <Card.Body>
                         <Card.Title>Engineering</Card.Title>
