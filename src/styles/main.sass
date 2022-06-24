@@ -108,20 +108,40 @@ code
   background-attachment: scroll
   background-size: cover
 
+.ai-rox-home-card-title
+  position: absolute
+  top: 0px
+  left: 0px
+  height: 35px
+  width: 100%
+  padding-top: 5px
+  padding-left: 10px
+  background-color: rgba(#ffffff, .50)
+  color: black
+
+.card:hover
+  .ai-rox-home-card-text, .ai-rox-home-card-title
+    color: $airox-green !important
+    background-color: white !important
+
+.ai-rox-home-card-text
+  font-size: 14px
+  color: grey
+
 @media (max-width: 544px)
   .ai-rox-home-top-hero
     background-position: right center
     background-size: cover
   p
-    font-size: 14px
+    font-size: 18px
   h1
-    font-size: 1.8rem
+    font-size: 2rem
   h2
-    font-size: 1rem
+    font-size: 1.5rem
   h3
-    font-size: 0.5rem
+    font-size: 1.2rem
   h4
-    font-size: 0.2rem
+    font-size: 1rem
   .headerTop
     font-size: 8px
   .headerNav a
@@ -140,13 +160,14 @@ code
   p
     font-size: 14px
   h1
-    font-size: 1.5rem
+    font-size: 2rem
   h2
-    font-size: 1rem
+    font-size: 1.5rem
+
   h3
-    font-size: 0.5rem
+    font-size: 1.2rem
   h4
-    font-size: 0.2rem
+    font-size: 1rem
   .headerTop
     font-size: 8px
   .headerNav a

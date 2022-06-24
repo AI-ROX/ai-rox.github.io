@@ -29,7 +29,7 @@ const HomePage: React.FC = () => {
                 <br/>
                 <h2 style={{fontFamily: 'forArticle'}}>Software Development, Electronic Design and Manufacturing Solutions</h2>
                 <br/>
-                <p>Years of quality electronic design and manufacturing of Printed Circuit Boards (PCBs) specializing in diverse high-tech industries.</p>
+                <p>Years of quality electronic design and manufacturing specializing in diverse high-tech industries, supporting your product life-cycle.</p>
                 <br/>
               </Col>
             </Row>
@@ -37,24 +37,25 @@ const HomePage: React.FC = () => {
         </section>
         <section>
           <Container style={{paddingTop: '30px', margin: 'auto'}}>
-            <Row>
-              <Col xs="12" style={{textAlign: 'center'}}>
+            <Row style={{height: '400px', textAlign: 'center', alignContent:'center', alignItems: 'center'}}>
+              <Col xs="12" >
                 <h1 className='ai-rox-green'>AI-ROX Polytronics</h1>
-                <p>* An Independent Design House (IDH) founded in 2018.</p>
+                <h2>* An Independent Design House (IDH) founded in 2018 an based in South China, Shenzhen.</h2>
                 <br/>
-                <h3 className='ai-rox-green'>We Are</h3>
-                <p>Electronics experts focused on scalability, efficiency, and speed.<br/>Providing cutting-edge electronics and a flexible workflow.</p>
+                <h2 className='ai-rox-green'>We Are</h2>
+                <h3>Electronics experts focused on scalability, efficiency, and speed.</h3>
+                <h3>Providing cutting-edge electronics and a flexible workflow.</h3>
               </Col>
             </Row>
-            <Row>
+            <Row style={{minHeight: '400px'}}>
               <Col>
                 <CardGroup style={{justifyContent:'center'}}>
                   <Link to='engineering' style={{padding: '10px', textDecoration: 'none'}}>
                     <Card style={{border: '1px black', boxShadow:  '2px 2px 20px 2px rgba(0,0,0,.48)'}}>
                       <Card.Img height='272' variant='top' src='engineering.webp'/>
                       <Card.Body>
-                        <Card.Title>Engineering</Card.Title>
-                        <Card.Text>from the concept to the product &gt;</Card.Text>
+                        <Card.Title className='ai-rox-home-card-title'>ENGINEERING</Card.Title>
+                        <Card.Text className='ai-rox-home-card-text'>FROM THE CONCEPT TO THE PRODUCT &gt;</Card.Text>
                       </Card.Body>
                     </Card>
                   </Link>
@@ -62,8 +63,8 @@ const HomePage: React.FC = () => {
                     <Card style={{border: '1px black', boxShadow: '2px 2px 20px 2px rgba(0,0,0,.48)'}}>
                       <Card.Img height='272' variant='top' src='Manufacturing-SMT-PCBA.webp'/>
                       <Card.Body>
-                        <Card.Title>Manufacturing</Card.Title>
-                        <Card.Text>on your behalf under supervision<br/> of our professional surveyor &gt;</Card.Text>
+                        <Card.Title className='ai-rox-home-card-title'>MANUFACTURING</Card.Title>
+                        <Card.Text className='ai-rox-home-card-text'>PROTOTYPE TO MASS-PRODUCE &gt;</Card.Text>
                       </Card.Body>
                     </Card>
                   </Link>
@@ -71,8 +72,8 @@ const HomePage: React.FC = () => {
                   <Card style={{border: '1px black', boxShadow: '2px 2px 20px 2px rgba(0,0,0,.48)'}}>
                     <Card.Img height='272' variant='top' src='marterials supply.webp'/>
                     <Card.Body>
-                      <Card.Title>Supply</Card.Title>
-                      <Card.Text>of the quality raw materials, <br/>electronic components,<br/> new and refurbished equipment &gt;</Card.Text>
+                      <Card.Title className='ai-rox-home-card-title'>SUPPLY</Card.Title>
+                      <Card.Text className='ai-rox-home-card-text'>CHEMICALS, COMPONENTS, TOOLS &gt;</Card.Text>
                     </Card.Body>
                   </Card>
                   </Link>
@@ -80,9 +81,51 @@ const HomePage: React.FC = () => {
               </Col>
             </Row>
           </Container>
-          
         </section>
-        <section>AND ANOTHER SECTION</section>
+        <section>
+          <Container>
+            <Row  style={{minHeight: '400px', textAlign: 'center', alignContent:'center', alignItems: 'center'}}>
+              <Col>
+                <h1 className='ai-rox-green'>Industries Served</h1>
+                <h2>We had honor of working with an extremely diverse spectrum of industries.</h2>
+                <br/>
+                {/* <h2 className='ai-rox-green'>We Are</h2>
+                <h3>Electronics experts focused on scalability, efficiency, and speed.</h3>
+                <h3>Providing cutting-edge electronics and a flexible workflow.</h3> */}
+              </Col>
+            </Row>
+            <Row>
+              <Col>Industrial Equipment</Col>
+              <Col>Test Equipment</Col>
+              <Col></Col>
+              <Col></Col>
+            </Row>
+            <Row>
+              <Col></Col>
+              <Col></Col>
+              <Col></Col>
+              <Col></Col>
+            </Row>
+
+          </Container>
+        </section>
+        <section>
+          <Container>
+            <Row style={{minHeight: '400px', textAlign: 'left', alignContent:'center', alignItems: 'top', margin: '10px' }}>
+              <Col xs='4'>
+                <h3>Quality Commitment</h3>
+                <p>Our mission is to continually improve our Quality Management System to provide products and services that are perfect, on time, and within budget, while improving customer satisfaction in a great working environment.</p>
+              </Col>
+              <Col xs='4' style={{color:"white", backgroundColor:'rgba(136,170,0)'}}>
+                <h3>High Tech Solutions</h3>
+                <p>Onshore precision, designing, and building products for cutting edge industries such as IoT, Aerospace, Unmanned Systems, Medical Devices, Military and Defense, Scientific and Research Equipment, and Energy Systems.</p>              </Col>
+              <Col xs='4'>
+                <h3>Communication</h3>
+                <p>Our outstanding midwest customer service and customer-focused methodology keep our client&apos;s goals front and center throughout the design and manufacturing processes.</p>
+              </Col>
+            </Row>
+          </Container>
+        </section>
       </>
   )
 }
