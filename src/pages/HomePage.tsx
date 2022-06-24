@@ -95,31 +95,77 @@ const HomePage: React.FC = () => {
               </Col>
             </Row>
             <Row>
-              <Col>Industrial Equipment</Col>
-              <Col>Test Equipment</Col>
-              <Col></Col>
-              <Col></Col>
-            </Row>
-            <Row>
-              <Col></Col>
-              <Col></Col>
-              <Col></Col>
-              <Col></Col>
+              <Col xs='12' sm='6' md='4' lg='4' xl='3'><h3>Industrial Equipment</h3>
+                <ul>
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                </ul>
+              </Col>
+              <Col xs='12' sm='6' md='4' lg='4' xl='3'><h3>Test Equipment</h3>
+                <ul>
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                </ul>
+              </Col>
+              <Col xs='12' sm='6' md='4' lg='4' xl='3'><h3>Unmanned Systems</h3>
+                <ul>
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                </ul>
+              </Col>
+              <Col xs='12' sm='6' md='4' lg='4' xl='3'><h3>Energy Systems</h3>
+                <ul>
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                </ul>
+              </Col>
+              <Col xs='12' sm='6' md='4' lg='4' xl='3'><h3>IoT</h3>
+                <ul>
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                </ul>
+              </Col>
+              <Col xs='12' sm='6' md='4' lg='4' xl='3'><h3>Smart Home</h3>
+                <ul>
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                </ul>
+              </Col>
+              <Col xs='12' sm='6' md='4' lg='4' xl='3'><h3>Industrial Automation</h3>
+                <ul>
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                </ul>
+              </Col>
+              <Col xs='12' sm='6' md='4' lg='4' xl='3'><h3>Communication</h3>
+                <ul>
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                </ul>
+              </Col>
             </Row>
 
           </Container>
         </section>
         <section>
-          <Container>
+          <Container flex-wrap>
             <Row style={{minHeight: '400px', textAlign: 'left', alignContent:'center', alignItems: 'top', margin: '10px' }}>
-              <Col xs='4'>
+              <Col xs='12' sm='12' md='4' lg='4' xl='4' >
                 <h3>Quality Commitment</h3>
                 <p>Our mission is to continually improve our Quality Management System to provide products and services that are perfect, on time, and within budget, while improving customer satisfaction in a great working environment.</p>
               </Col>
-              <Col xs='4' style={{color:"white", backgroundColor:'rgba(136,170,0)'}}>
+              <Col xs='12' sm='12' md='4' lg='4' xl='4' style={{color:"white", backgroundColor:'rgba(136,170,0)'}}>
                 <h3>High Tech Solutions</h3>
                 <p>Onshore precision, designing, and building products for cutting edge industries such as IoT, Aerospace, Unmanned Systems, Medical Devices, Military and Defense, Scientific and Research Equipment, and Energy Systems.</p>              </Col>
-              <Col xs='4'>
+              <Col xs='12' sm='12' md='4' lg='4' xl='4' >
                 <h3>Communication</h3>
                 <p>Our outstanding midwest customer service and customer-focused methodology keep our client&apos;s goals front and center throughout the design and manufacturing processes.</p>
               </Col>
