@@ -156,18 +156,18 @@ const HomePage: React.FC = () => {
           </Container>
         </section>
         <section>
-          <Container flex-wrap>
-            <Row style={{minHeight: '400px', textAlign: 'left', alignContent:'center', alignItems: 'top', margin: '10px' }}>
-              <Col xs='12' sm='12' md='4' lg='4' xl='4' >
+          <Container fluid>
+            <Row style={{minHeight: '400px', textAlign: 'left', alignContent:'center', alignItems: 'top', margin: '10px'}}>
+              <Col xs='12' sm='12' md='4' lg='4' xl='4' className='ai-rox-home-card-set2'>
                 <h3>Quality Commitment</h3>
                 <p>Our mission is to continually improve our Quality Management System to provide products and services that are perfect, on time, and within budget, while improving customer satisfaction in a great working environment.</p>
               </Col>
-              <Col xs='12' sm='12' md='4' lg='4' xl='4' style={{color:"white", backgroundColor:'rgba(136,170,0)'}}>
+              <Col xs='12' sm='12' md='4' lg='4' xl='4' style={{color:"white", backgroundColor:'rgba(136,170,0)'}} className='ai-rox-home-card-set2'>
                 <h3>High Tech Solutions</h3>
                 <p>Onshore precision, designing, and building products for cutting edge industries such as IoT, Aerospace, Unmanned Systems, Medical Devices, Military and Defense, Scientific and Research Equipment, and Energy Systems.</p>              </Col>
-              <Col xs='12' sm='12' md='4' lg='4' xl='4' >
+              <Col xs='12' sm='12' md='4' lg='4' xl='4' className='ai-rox-home-card-set2'>
                 <h3>Communication</h3>
-                <p>Our outstanding midwest customer service and customer-focused methodology keep our client&apos;s goals front and center throughout the design and manufacturing processes.</p>
+                <p>Our outstanding customer service and customer-focused methodology keep our client&apos;s goals front and center throughout the design and manufacturing processes.</p>
               </Col>
             </Row>
           </Container>
