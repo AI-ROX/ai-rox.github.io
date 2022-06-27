@@ -82,7 +82,14 @@ const HomePage: React.FC = () => {
             </Row>
           </Container>
         </section>
-        <section>
+        <section style={{
+          color:'white',
+          backgroundColor: 'rgba(0,250,0,.8)',
+          backgroundImage:'url(/high-freq-bg.webp)',
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center top',
+          backgroundBlendMode: 'multiply'}}>
           <Container>
             <Row  style={{minHeight: '400px', textAlign: 'center', alignContent:'center', alignItems: 'center'}}>
               <Col>
@@ -95,60 +102,56 @@ const HomePage: React.FC = () => {
               </Col>
             </Row>
             <Row>
-              <Col xs='12' sm='6' md='4' lg='4' xl='3'><h3>Industrial Equipment</h3>
+              <Col xs='12' sm='6' md='4' lg='4' xl='3'><h4>Industrial Automation, Smart Factory</h4>
                 <ul>
-                  <li>1</li>
-                  <li>2</li>
-                  <li>3</li>
+                  <li>Controllers</li>
+                  <li>Monitoring Systems</li>
                 </ul>
               </Col>
-              <Col xs='12' sm='6' md='4' lg='4' xl='3'><h3>Test Equipment</h3>
+              <Col xs='12' sm='6' md='4' lg='4' xl='3'><h4>Scientific and Test Equipment</h4>
                 <ul>
-                  <li>1</li>
-                  <li>2</li>
-                  <li>3</li>
+                  <li>LCR-Meters</li>
+                  <li>Network Analyzers</li>
+                  <li>SHF Analogue</li>
                 </ul>
               </Col>
-              <Col xs='12' sm='6' md='4' lg='4' xl='3'><h3>Unmanned Systems</h3>
+              <Col xs='12' sm='6' md='4' lg='4' xl='3'><h4>Unmanned Systems</h4>
                 <ul>
-                  <li>1</li>
-                  <li>2</li>
-                  <li>3</li>
+                  <li>AI Visual Inspection</li>
+                  <li>Sensors</li>
+                  <li>UAV</li>
                 </ul>
               </Col>
-              <Col xs='12' sm='6' md='4' lg='4' xl='3'><h3>Energy Systems</h3>
+              <Col xs='12' sm='6' md='4' lg='4' xl='3'><h4>Energy Systems</h4>
                 <ul>
-                  <li>1</li>
-                  <li>2</li>
-                  <li>3</li>
+                  <li>Energy meters</li>
                 </ul>
               </Col>
-              <Col xs='12' sm='6' md='4' lg='4' xl='3'><h3>IoT</h3>
+              <Col xs='12' sm='6' md='4' lg='4' xl='3'><h4>IoT</h4>
                 <ul>
-                  <li>1</li>
-                  <li>2</li>
-                  <li>3</li>
+                  <li>Interface converters</li>
+                  <li>Controllers</li>
+                  <li>UI Dashboards</li>
                 </ul>
               </Col>
-              <Col xs='12' sm='6' md='4' lg='4' xl='3'><h3>Smart Home</h3>
+              <Col xs='12' sm='6' md='4' lg='4' xl='3'><h4>Smart Home</h4>
                 <ul>
-                  <li>1</li>
-                  <li>2</li>
-                  <li>3</li>
+                  <li>Environment quality control</li>
+                  <li>Motion sensing / presence detection</li>
                 </ul>
               </Col>
-              <Col xs='12' sm='6' md='4' lg='4' xl='3'><h3>Industrial Automation</h3>
+              <Col xs='12' sm='6' md='4' lg='4' xl='3'><h4>Marine</h4>
                 <ul>
-                  <li>1</li>
-                  <li>2</li>
-                  <li>3</li>
+                  <li>Communication systems</li>
+                  <li>Cabling</li>
+                  <li>Technical Maintenance systems</li>
                 </ul>
               </Col>
-              <Col xs='12' sm='6' md='4' lg='4' xl='3'><h3>Communication</h3>
+              <Col xs='12' sm='6' md='4' lg='4' xl='3'><h4>Military</h4>
                 <ul>
-                  <li>1</li>
-                  <li>2</li>
-                  <li>3</li>
+                  <li>Information Security</li>
+                  <li>Networking</li>
+                  <li>Access Control</li>
                 </ul>
               </Col>
             </Row>
