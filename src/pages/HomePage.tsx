@@ -40,7 +40,7 @@ const HomePage: React.FC = () => {
             <Row style={{height: '400px', textAlign: 'center', alignContent:'center', alignItems: 'center'}}>
               <Col xs="12" >
                 <h1 className='ai-rox-green'>AI-ROX Polytronics</h1>
-                <h2>* An Independent Design House (IDH) founded in 2018 an based in South China, Shenzhen.</h2>
+                <h2>* An Independent Design House (IDH) founded in 2018 by international team and based in South China, Shenzhen.</h2>
                 <br/>
                 <h2 className='ai-rox-green'>We Are</h2>
                 <h3>Electronics experts focused on scalability, efficiency, and speed.</h3>
