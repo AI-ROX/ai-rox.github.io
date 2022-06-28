@@ -37,7 +37,7 @@ const HomePage: React.FC = () => {
         </section>
         <section>
           <Container style={{paddingTop: '30px', margin: 'auto'}}>
-            <Row style={{height: '400px', textAlign: 'center', alignContent:'center', alignItems: 'center'}}>
+            <Row style={{minHeight: '400px', textAlign: 'center', alignContent:'center', alignItems: 'center'}}>
               <Col xs="12" >
                 <h1 className='ai-rox-green'>AI-ROX Polytronics</h1>
                 <h2>* An Independent Design House (IDH) founded in 2018 by international team and based in South China, Shenzhen.</h2>
@@ -45,6 +45,8 @@ const HomePage: React.FC = () => {
                 <h2 className='ai-rox-green'>We Are</h2>
                 <h3>Electronics experts focused on scalability, efficiency, and speed.</h3>
                 <h3>Providing cutting-edge electronics and a flexible workflow.</h3>
+                <br/>
+                <br/>
               </Col>
             </Row>
             <Row style={{minHeight: '400px'}}>
