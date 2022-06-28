@@ -13,7 +13,7 @@ const HeaderNav: React.FC = () => {
       <Navbar bg='white' expand='sm' fixed='top' sticky="top" className='me-auto justify-content-center'>
         <Container>
           <Navbar.Brand as={NavLink} to='/' className='d-inline-block align-center'>
-            <img alt='' src='ai-rox-logo.png' width='150' height='auto' />
+            <img alt='' src='/ai-rox-logo.png' width='150' height='auto' />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav'/>
           <Navbar.Collapse id='basic-navbar-nav'>

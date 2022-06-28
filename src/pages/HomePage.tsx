@@ -9,7 +9,7 @@ const HomePage: React.FC = () => {
       <>
         <section>
           <Container fluid style={{padding:0, margin:0}} className='ai-rox-home-top-hero'>
-            <Row style={{height: '400px',}}>
+            <Row style={{height: '400px', margin: 'auto'}}>
               <Col>
               </Col>
               <Col xs="12" sm='8' lg='7' xl='7' style={{
