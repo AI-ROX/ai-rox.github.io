@@ -7,6 +7,8 @@ import ManufacturingPage from './pages/ManufacturingPage'
 import MaterialsPage from './pages/MaterialsPage'
 import SupplyPage from './pages/SupplyPage'
 import EquipmentPage from './pages/EquipmentPage'
+import SupplyBOMPage from './pages/SupplyBOMPage'
+import SparepartsPage from './pages/SparepartsPage'
 import NotFoundPage from './pages/NotFoundPage'
 import { ROUTES } from './resources/routes-constants'
 
@@ -26,6 +28,8 @@ const RootComponent: React.FC = () => {
                   <Route path={ROUTES.SUPPLY} element={<SupplyPage />}>
                     <Route path={ROUTES.MATERIALS} element={<MaterialsPage />} />
                     <Route path={ROUTES.EQUIPMENT} element={<EquipmentPage />} />
+                    <Route path={ROUTES.SUPPLYBOM} element={<SupplyBOMPage />} />
+                    <Route path={ROUTES.SPAREPARTS} element={<SparepartsPage />} />
                   </Route>
                 </Route>
             </Routes>

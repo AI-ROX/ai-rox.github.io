@@ -15,5 +15,7 @@ export const ROUTES = {
     MANUFACTURING: 'manufacturing',
     SUPPLY: 'supply',
     MATERIALS: 'materials',
+    SUPPLYBOM: 'bom',
+    SPAREPARTS: 'spareparts',
     EQUIPMENT: 'equipment',
 }
