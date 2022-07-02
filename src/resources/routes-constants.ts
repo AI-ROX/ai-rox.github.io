@@ -10,7 +10,7 @@
  */
 // lowercase names automatically
 export const ROUTES = {
-    INDEX_ROUTE: '/',
+    INDEX_ROUTE: '',
     ENGINEERING: 'engineering',
     MANUFACTURING: 'manufacturing',
     SUPPLY: 'supply',
