@@ -10,7 +10,7 @@ const HeaderNav: React.FC = () => {
   //justifyContent:'center', alignItems:'center', alignContent:'center',
   // <Nav.Link as={NavLink} to='supply'>Supply</Nav.Link>
     return (
-      <Navbar bg='white' expand='sm' fixed='top' sticky="top" className='me-auto justify-content-center'>
+      <Navbar expand='sm' fixed='top' sticky="top" className='me-auto justify-content-center'>
         <Container>
           <Navbar.Brand as={NavLink} to='/' className='d-inline-block align-center'>
             <img alt='' src='/ai-rox-logo.png' width='150' height='auto' />
@@ -21,14 +21,14 @@ const HeaderNav: React.FC = () => {
               <Nav.Link as={NavLink} to='engineering'>Engineering</Nav.Link>
               <Nav.Link as={NavLink} to='manufacturing'>Manufacturing</Nav.Link>
               <Nav.Link as={NavLink} to='supply'>Supply</Nav.Link>
-               <NavDropdown title="Resources" id="navbarScrollingDropdown" className='active'>
+               {/* <NavDropdown title="More" id="navbarScrollingDropdown" className='active'>
                 <NavDropdown.Item as={NavLink} to='supply/materials'>Materials</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to='supply/equipment'>Equipment</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action5">
                   More links
                 </NavDropdown.Item>
-              </NavDropdown>
+              </NavDropdown> */}
               {/* <Nav.Link as={NavLink} to='supply/materials'>Materials</Nav.Link> */}
               {/* <Nav.Link as={NavLink} to='supply/equipment'>Equipment</Nav.Link> */}
             </Nav>

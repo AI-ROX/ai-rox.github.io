@@ -4,10 +4,10 @@ import HeaderNav from '../components/HeaderNav'
 
 
 const Header: React.FC = () => {
-  const n = new Date(Date.now()).toString();
-    return (
-      <>
-        <header>
+  return (
+    <>
+      <header>
+        <section className='ai-rox-site-header-section'>
           <section className='headerTop'>
             <Container>
               <Row style={{textAlign:'center'}}>
@@ -17,12 +17,13 @@ const Header: React.FC = () => {
               </Row>
             </Container>
           </section>
-          <section className='headerNav'>
-            <HeaderNav/>
-          </section>
-        </header>
-      </>
-    )
+            <Container fluid className='headerNav'>
+              <HeaderNav/>
+            </Container>
+        </section>
+      </header>
+    </>
+  )
 }
 
 export default Header

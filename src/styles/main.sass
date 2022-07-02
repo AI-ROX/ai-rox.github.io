@@ -68,7 +68,7 @@ code
 //   flex-direction: column
 
 .headerTop
-  position: fixed
+  position: relative
   width: 100%
   z-index: 9999
   top: 0
@@ -81,9 +81,36 @@ code
   color: $airox-green !important
 
 .headerNav
+  position: relative
+//  position: fixed
   padding-top: 20px
+  background-color: rgba(255,255,255,0.7)
 
-    //   position: relative
+.ai-rox-site-header-section
+  position: relative
+
+header
+  width: 100%
+  background-color: #eee
+
+html:not([data-scroll='0'])
+  main
+    padding-top: 0
+
+  header
+    top: 0
+    z-index: 99999
+    background-color: #fff
+    box-shadow: 0 0 .5em rgba(0,0,0,.5)
+    position: sticky
+
+header
+  box-sizing: border-box
+  transition: background-color .25s
+
+main
+  padding: 0
+      //   position: relative
 //   //top: 35px
 //   padding-top: 20px
 //   z-index: 100
@@ -269,3 +296,7 @@ code
 // $desktop-size: 1200px
 .navbar-nav >.active
   color: green
+
+// html[data-scroll='10']
+//   h1
+//     color: red
