@@ -20,7 +20,6 @@ const RootComponent: React.FC = () => {
     return (
         <Router>
             <Routes>
-                <Route path="*" element={<NotFoundPage />} />
                 <Route path={ROUTES.INDEX_ROUTE} element={<Layout />}>
                   <Route index element={<HomePage />} />
                   <Route path={ROUTES.ENGINEERING} element={<EngineeringPage />} />
@@ -32,6 +31,7 @@ const RootComponent: React.FC = () => {
                     <Route path={ROUTES.SPAREPARTS} element={<SparepartsPage />} />
                   </Route>
                 </Route>
+                <Route path='*' element={<NotFoundPage />} />
             </Routes>
         </Router>
     )
