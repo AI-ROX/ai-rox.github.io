@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/AI-ROX/ai-rox.github.io/static/css/main.63721260.css",
-    "main.js": "/AI-ROX/ai-rox.github.io/static/js/main.f44e7f9c.js",
-    "static/media/Roboto-Regular.ttf": "/AI-ROX/ai-rox.github.io/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
-    "static/media/Poppins-Regular.ttf": "/AI-ROX/ai-rox.github.io/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
-    "static/media/bootstrap-icons.woff?": "/AI-ROX/ai-rox.github.io/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
-    "static/media/bootstrap-icons.woff2?": "/AI-ROX/ai-rox.github.io/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
-    "static/media/test-for-hero.webp": "/AI-ROX/ai-rox.github.io/static/media/test-for-hero.c741a5ac27f4b2991563.webp",
-    "index.html": "/AI-ROX/ai-rox.github.io/index.html",
-    "main.63721260.css.map": "/AI-ROX/ai-rox.github.io/static/css/main.63721260.css.map",
-    "main.f44e7f9c.js.map": "/AI-ROX/ai-rox.github.io/static/js/main.f44e7f9c.js.map"
+    "main.css": "/static/css/main.610b88d8.css",
+    "main.js": "/static/js/main.f44e7f9c.js",
+    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
+    "static/media/test-for-hero.webp": "/static/media/test-for-hero.c741a5ac27f4b2991563.webp",
+    "index.html": "/index.html",
+    "main.610b88d8.css.map": "/static/css/main.610b88d8.css.map",
+    "main.f44e7f9c.js.map": "/static/js/main.f44e7f9c.js.map"
   },
   "entrypoints": [
-    "static/css/main.63721260.css",
+    "static/css/main.610b88d8.css",
     "static/js/main.f44e7f9c.js"
   ]
 }
