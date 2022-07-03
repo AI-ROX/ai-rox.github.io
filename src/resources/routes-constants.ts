@@ -13,9 +13,9 @@ export const ROUTES = {
     INDEX_ROUTE: '',
     ENGINEERING: 'engineering',
     MANUFACTURING: 'manufacturing',
-    SUPPLY: 'supply',
+    SOURCING: 'sourcing',
     MATERIALS: 'materials',
-    SUPPLYBOM: 'bom',
+    BOM: 'bom',
     SPAREPARTS: 'spareparts',
     EQUIPMENT: 'equipment',
 }

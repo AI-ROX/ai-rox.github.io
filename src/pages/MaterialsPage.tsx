@@ -1,6 +1,5 @@
 import React from 'react'
 //import Navbar from '../components/Navbar'
-import DateDisplay from '../components/DateDisplay'
 
 const MaterialsPage: React.FC = () => {
     return (

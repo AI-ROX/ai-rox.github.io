@@ -5,11 +5,12 @@ import HomePage from './pages/HomePage'
 import EngineeringPage from './pages/EngineeringPage'
 import ManufacturingPage from './pages/ManufacturingPage'
 import MaterialsPage from './pages/MaterialsPage'
-import SupplyPage from './pages/SupplyPage'
+import SourcingPage from './pages/SourcingPage'
 import EquipmentPage from './pages/EquipmentPage'
-import SupplyBOMPage from './pages/SupplyBOMPage'
+import BOMPage from './pages/BOMPage'
 import SparepartsPage from './pages/SparepartsPage'
 import NotFoundPage from './pages/NotFoundPage'
+
 import { ROUTES } from './resources/routes-constants'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -24,10 +25,10 @@ const RootComponent: React.FC = () => {
                   <Route index element={<HomePage />} />
                   <Route path={ROUTES.ENGINEERING} element={<EngineeringPage />} />
                   <Route path={ROUTES.MANUFACTURING} element={<ManufacturingPage />} />
-                  <Route path={ROUTES.SUPPLY} element={<SupplyPage />}>
+                  <Route path={ROUTES.SOURCING} element={<SourcingPage />}>
                     <Route path={ROUTES.MATERIALS} element={<MaterialsPage />} />
                     <Route path={ROUTES.EQUIPMENT} element={<EquipmentPage />} />
-                    <Route path={ROUTES.SUPPLYBOM} element={<SupplyBOMPage />} />
+                    <Route path={ROUTES.BOM} element={<BOMPage />} />
                     <Route path={ROUTES.SPAREPARTS} element={<SparepartsPage />} />
                   </Route>
                 </Route>

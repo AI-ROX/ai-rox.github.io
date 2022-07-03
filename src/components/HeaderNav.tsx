@@ -20,7 +20,7 @@ const HeaderNav: React.FC = () => {
             <Nav className='me-auto justify-content-end'>
               <Nav.Link as={NavLink} to='engineering'>Engineering</Nav.Link>
               <Nav.Link as={NavLink} to='manufacturing'>Manufacturing</Nav.Link>
-              <Nav.Link as={NavLink} to='supply'>Supply</Nav.Link>
+              <Nav.Link as={NavLink} to='sourcing'>Sourcing</Nav.Link>
                {/* <NavDropdown title="More" id="navbarScrollingDropdown" className='active'>
                 <NavDropdown.Item as={NavLink} to='supply/materials'>Materials</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to='supply/equipment'>Equipment</NavDropdown.Item>
