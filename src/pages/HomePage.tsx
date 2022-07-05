@@ -70,7 +70,7 @@ const HomePage: React.FC = () => {
                       </Card.Body>
                     </Card>
                   </Link>
-                  <Link to='supply' style={{padding: '10px', textDecoration: 'none'}}>
+                  <Link to='sourcing' style={{padding: '10px', textDecoration: 'none'}}>
                   <Card style={{border: '1px black', boxShadow: '2px 2px 20px 2px rgba(0,0,0,.48)'}}>
                     <Card.Img height='272' variant='top' src='marterials supply.webp'/>
                     <Card.Body>
