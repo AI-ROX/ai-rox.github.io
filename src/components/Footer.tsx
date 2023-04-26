@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
             <nav>
               <Link style={{color: 'white', textDecoration:'none'}} to='sitemap'>Site Map</Link>
               &nbsp;|&nbsp;
-              Copyright © 2018-2022 AI-ROX Polytronics Co., Ltd. All Rights Reserved.
+              Copyright © 2018-2023 AI-ROX Polytronics Co., Ltd. All Rights Reserved.
               &nbsp;|&nbsp;
               <Link style={{color: 'white', textDecoration:'none'}} to='privacypol'>Privacy Policy</Link>
             </nav>
